@@ -4,8 +4,12 @@ Minimal Step Sequencer and Multitrack Sample Player for use with the Elekrosil S
 WARNING:
 This appliction was built for demonstration purposes only and might damage your audio devices when misconfigured. Use it on your own risk.
 
+# Elektrosil Smart-Switch
+We use the Elektrosil Smart-Switch as controller. This rotary controller unit features an integrated rgb led ring and is connected via USB. However, the step sequencer and sampler are independent of this and can also be used in a different context or with different input devices. More information about the Smart-Switch on the Elektrosil website.  
+https://www.elektrosil.com/en/home-2/product-portfolio/smart-switch/
+
 # Setup
-Node.js and the bundled NPM Package Manager are required. Follow instructions on the node.js homepage. This project is tested with node.js version 14.15.1.
+Node.js and the bundled NPM Package Manager are required. Follow instructions on the node.js homepage. This project is tested with node.js version 14.15.1.  
 https://nodejs.org/en/download/
 
 ## Installation
@@ -164,29 +168,29 @@ Loads and plays multiple 44.1kHz 16bit Mono Wav files. Provides a raw audio stre
 There are quite some external dependencies. The following are the root deps installed with this project.
 
 ## BitBuffer
-Manipulate Buffers bitwise
+Manipulate Buffers bitwise  
 https://www.npmjs.com/package/bit-buffer
 
 ## hex-rgb
-Convert hex strings to rgb
+Convert hex strings to rgb  
 https://www.npmjs.com/package/hex-rgb
 
 ## nanotimer
-Precision Timer
+Precision Timer  
 https://www.npmjs.com/package/nanotimer
 
 ## node-hid
-USB Management
+USB Management  
 https://www.npmjs.com/package/node-hid
 
 ## node-speaker
-Audio Playback
+Audio Playback  
 https://www.npmjs.com/package/node-hid
 
-Internally using mpg123 Audio Backend. 
+Internally using mpg123 Audio Backend.  
 https://www.mpg123.de/
 
-Check out a possible alternative built around portaudio instead of mpg123
+Check out a possible alternative built around portaudio instead of mpg123  
 https://www.npmjs.com/package/naudiodon
 
 # Known Issues
@@ -205,8 +209,8 @@ npm install speaker --mpg123-backend=openal
 The sourcecode of this application is licensed under the MIT License. See LICENSE for more information. The samples provided are licensed under the CC0 License, see samples/LICENSE for more information.
 
 # Contact
-HID Human Interface Design GmbH
-Stresemannstraße 375
+HID Human Interface Design GmbH  
+Stresemannstraße 375  
 22761 Hamburg
 
 info@human-interface.de
