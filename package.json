@@ -1,0 +1,21 @@
+{
+  "name": "elektrosil-s4",
+  "version": "1.0.7",
+  "description": "Elektrosil Smart Switch Step Sequencer",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "test-audio": "node src/test-audio.js"
+  },
+  "author": "rnd7@hid",
+  "license": "MIT",
+  "dependencies": {
+    "bit-buffer": "^0.2.4",
+    "hex-rgb": "^4.2.0",
+    "nanotimer": "^0.3.15",
+    "node-hid": "^2.0.0-0",
+    "speaker": "^0.5.2"
+  }
+}

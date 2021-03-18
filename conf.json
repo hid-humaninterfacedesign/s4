@@ -1,0 +1,38 @@
+{
+    "latency": 250,
+    "interpolation": 0.3,
+    "tracks": [
+        {
+            "sample": "samples/kick-44100-16-mono.wav", 
+            "color": "#0A007D",
+            "volume": 0.7
+        },
+        {
+            "sample": "samples/tom-44100-16-mono.wav", 
+            "color": "#1D4A5D",
+            "volume": 0.3,
+            "interpolation": 0.1
+        },
+        {
+            "sample": "samples/snare-44100-16-mono.wav", 
+            "color": "#7A0D00",
+            "volume": 0.2
+        },
+        {
+            "sample": "samples/clap-44100-16-mono.wav", 
+            "color": "#DB1DDA",
+            "volume": 0.4
+        },
+        {
+            "sample": "samples/hihat-closed-44100-16-mono.wav", 
+            "color": "#00F7FF",
+            "volume": 0.45,
+            "interpolation": 0.6
+        },
+        {
+            "sample": "samples/hihat-open-44100-16-mono.wav", 
+            "color": "#F7FF00",
+            "volume": 0.4
+        }
+    ]
+}
